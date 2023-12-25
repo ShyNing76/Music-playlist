@@ -36,6 +36,7 @@ nav .circle{
     background: #fff;
     color: #f1ba42;
     box-shadow: 0 5px 5px rgba(219, 157, 49, 0.623);
+    cursor: pointer;
 }
 
 .song-img{
@@ -47,7 +48,7 @@ nav .circle{
 
 .music-player h1{
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 500 bold;
     color: #333;
     margin-top: 20px;
     margin-bottom: 8px;
@@ -125,3 +126,83 @@ nav .circle{
     background: #f1ba42;
     color: #fff;
 }
+
+.music-volume i{
+    transform: scale(1.3);
+    color: #f8a311;
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 20px;
+    box-shadow: 0 5px 5px rgba(219, 157, 49, 0.623);
+    cursor: pointer;
+}
+
+/* Song List */
+
+#playlist{
+    background: linear-gradient(135deg, #d3b683, #df9515 ) ;
+    width: 400px;
+    padding: 25px 35px;
+    text-align: left;
+    margin-left: 100px;
+    display: none;
+}
+
+#songlist{
+    cursor: pointer;
+    list-style: none;
+}
+
+.playlist li:nth-child(1){
+    height: 50px;
+    padding-left: 60px;
+    margin-bottom: 5px;
+    width: 100%;
+    font-size: 12px; 
+    background: url(media/Nhung\ loi\ hua\ bo\ quen\ img.jpg) no-repeat left center; 
+    background-size: contain;
+}
+
+.playlist span{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.playlist h1{
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.playlist li:nth-child(2){
+    height: 50px;
+    padding-left: 60px;
+    margin-bottom: 5px;
+    width: 100%;
+    font-size: 12px; 
+    background: url(media/Ban\ doi.jpg) no-repeat left center; 
+    background-size: contain;
+}
+
+.playlist li:nth-child(3){
+    height: 50px;
+    padding-left: 60px;
+    margin-bottom: 5px;
+    width: 100%;
+    font-size: 12px; 
+    background: url(media/tung\ quen.jpg) no-repeat left center; 
+    background-size: contain;
+}
+
+
+
+
+
+
+
+
