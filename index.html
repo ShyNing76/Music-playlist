@@ -15,15 +15,15 @@
                 <div class="circle">
                     <i class="fa-solid fa-angle-left"></i>
                 </div>
-                <div onclick="showPlaylist()" class="circle">
+                <div onclick="showPlaylist()" class="circle" id="playlistIcon" >
                     <i  class="fa-solid fa-bars"></i>
                 </div>
             </nav>
-            <img src="media/Nhung loi hua bo quen img.jpg"  class="song-img" alt="">
-            <h1>Những Lời Hứa Bỏ Quên</h1>
-            <p>VŨ. X DEAR JANE</p>
+            <img src="media/Image/Nhung loi hua bo quen img.jpg"  class="song-img" alt="">
+            <h1 class="song-title">Những Lời Hứa Bỏ Quên</h1>
+            <p class="song-artist">VŨ. X DEAR JANE</p>
 
-            <audio autoplay ="false" id="song" src="media/Nhưng Lơi Hưa Bo Quên - Vu. (Xmas Live Session).mp3">
+            <audio autoplay ="false" id="song" src="media/music/Nhưng Lơi Hưa Bo Quên - Vu. (Xmas Live Session).mp3">
             </audio>
             <input type="range" name="" value="0" id="progress">
 
@@ -35,18 +35,18 @@
             
 
             <div class="controls">
-                <div><i class="fa-solid fa-backward"></i></div>
+                <div onclick="previousSong()"><i class="fa-solid fa-backward"></i></div>
                 <div onclick="playPause()"><i class="fa-solid fa-play" id="ctrlIcon"></i></div>
-                <div><i class="fa-solid fa-forward"></i></div>
+                <div onclick="nextSong()"><i class="fa-solid fa-forward"></i></div>
             </div>
         </div>
 
         <div class="playlist" id="playlist" >
             <h1>PlayList <i class="fa-solid fa-music"></i></h1>
             <ul id="songlist">
-                <li> <span>Những Lời Hứa Bỏ Quên</span> <br> VŨ </li>
+                <!-- <li> <span>Những Lời Hứa Bỏ Quên</span> <br> VŨ </li>
                 <li> <span>Bạn đời</span> <br> KARIK</li>
-                <li> <span>Từng Quen</span> <br> WREN EVANS</li>
+                <li> <span>Từng Quen</span> <br> WREN EVANS</li> -->
             </ul>
         </div>
     </div>

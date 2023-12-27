@@ -158,15 +158,61 @@ nav .circle{
     list-style: none;
 }
 
-.playlist li:nth-child(1){
+.playlist li{
     height: 50px;
     padding-left: 60px;
     margin-bottom: 5px;
     width: 100%;
     font-size: 12px; 
-    background: url(media/Nhung\ loi\ hua\ bo\ quen\ img.jpg) no-repeat left center; 
+    background: no-repeat left center; 
     background-size: contain;
 }
+
+/* Song Image playlist start */
+
+.song-item:nth-child(1){
+    background-image: url(media/Image/Nhung\ loi\ hua\ bo\ quen\ img.jpg);
+}
+
+.song-item:nth-child(2){
+    background-image: url(media/Image/Ban\ doi.jpg);
+}
+
+.song-item:nth-child(3){
+    background-image: url(media/Image/tung\ quen.jpg);
+}
+
+.song-item:nth-child(4){
+    background-image: url(media/Image/giac\ mo\ khac.jpg);
+}
+
+.song-item:nth-child(5){
+    background-image: url(media/Image/danh\ cho\ em.jpg);
+}
+
+.song-item:nth-child(6){
+    background-image: url(media/Image/tell\ the\ kid\ i\ love\ them.jpg);
+}
+
+.song-item:nth-child(7){
+    background-image: url(media/Image/co\ em.jpg);
+}
+
+.song-item:nth-child(8){
+    background-image: url(media/Image/chi\ mot\ dem\ nua\ thoi.jpg);
+}
+
+.song-item:nth-child(9){
+    background-image: url(media/Image/lan\ cuoi.jpg);
+}
+
+.song-item:nth-child(10){
+    background-image: url(media/Image/mot\ trieu\ like.jpg);
+}
+
+
+
+/* Song image playlist end */
 
 .playlist span{
     font-weight: bold;
@@ -179,25 +225,11 @@ nav .circle{
     margin-bottom: 30px;
 }
 
-.playlist li:nth-child(2){
-    height: 50px;
-    padding-left: 60px;
-    margin-bottom: 5px;
-    width: 100%;
-    font-size: 12px; 
-    background: url(media/Ban\ doi.jpg) no-repeat left center; 
-    background-size: contain;
+.playlist h1 i{
+    margin-left: 10px;
+    color: #333;
 }
 
-.playlist li:nth-child(3){
-    height: 50px;
-    padding-left: 60px;
-    margin-bottom: 5px;
-    width: 100%;
-    font-size: 12px; 
-    background: url(media/tung\ quen.jpg) no-repeat left center; 
-    background-size: contain;
-}
 
 
 
